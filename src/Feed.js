@@ -27,7 +27,7 @@ function Feed() {
           <Post
             key={post.text}
             displayName={post.displayName}
-            username={post.username}
+            // username={post.username}
             verified={post.verified}
             text={post.text}
             avatar={post.avatar}
