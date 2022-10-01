@@ -19,6 +19,7 @@
 
 .widgets__searchIcon {
   color: gray;
+
 }
 
 .widgets__widgetContainer {
@@ -27,6 +28,7 @@
   padding: 20px;
   background-color: #f5f8fa;
   border-radius: 20px;
+  
 }
 
 .widgets__widgetContainer > h2 {
