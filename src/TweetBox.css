@@ -12,7 +12,7 @@
 .tweetBox__input {
   padding: 20px;
   display: flex;
-  
+
 }
 
 .tweetBox__input > input {
@@ -25,6 +25,10 @@
 .tweetBox__imageInput {
   border: none;
   padding: 10px;
+}
+
+.remove-outline:focus-visible{
+  outline: none;
 }
 
 .tweetBox__tweetButton {

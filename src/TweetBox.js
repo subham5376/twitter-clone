@@ -33,13 +33,14 @@ function TweetBox() {
             onChange={(e) => setTweetMessage(e.target.value)}
             value={tweetMessage}
             placeholder="What's happening?"
+            className="remove-outline"
             type="text"
           />
         </div>
         <input
           value={tweetImage}
           onChange={(e) => setTweetImage(e.target.value)}
-          className="tweetBox__imageInput"
+          className="tweetBox__imageInput remove-outline"
           placeholder="Optional: Enter image URL"
           type="text"
         />
