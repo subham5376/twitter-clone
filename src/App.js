@@ -7,14 +7,14 @@ import ScrollToTop from "./ScrollToTop"
 
 function App() {
   return (
-                <ScrollToTop/>
+             //   <ScrollToTop>
 
-    // BEM
-    <div className="app">
+     <div className="app">
       <Sidebar />
       <Feed />
       <Widgets />
-    </div>
+     </div>
+   // <ScrollToTop/>
   );
 }
 
