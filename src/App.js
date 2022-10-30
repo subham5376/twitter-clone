@@ -4,17 +4,19 @@ import Feed from "./Feed";
 import Widgets from "./Widgets";
 import "./App.css";
 import ScrollToTop from "./ScrollToTop"
-
+export const UserContext = React.createContext();
 function App() {
   return (
-                <ScrollToTop/>
+                
 
     // BEM
+    <UserContext.Provider value="Reed">
     <div className="app">
       <Sidebar />
       <Feed />
       <Widgets />
     </div>
+    <UserContext/>
   );
 }
 
