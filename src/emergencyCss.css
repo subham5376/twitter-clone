@@ -6,7 +6,7 @@
     max-height: max-content;
     border-radius: 2%;
     border-top: 1em;
-    text-replace: auto;
+    /* text-replace: auto; */
     overflow-x: auto;
 }
 .pad{
