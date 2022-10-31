@@ -1,0 +1,14 @@
+.xms{
+    background-color: blanchedalmond;
+    color: black;
+    max-width: max-content;
+    min-width: none;
+    max-height: max-content;
+    border-radius: 2%;
+    border-top: 1em;
+    text-replace: auto;
+    overflow-x: auto;
+}
+.pad{
+    padding: 1em;
+}

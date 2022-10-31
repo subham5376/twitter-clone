@@ -1,0 +1,67 @@
+$color-blue: #00315c;
+$color-purple: #6f479f;
+$color-black: #202020;
+$color-gray: #edebeb;
+$color-white: #fcfcfc;
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+    overflow-x: hidden;
+  width: 100%;
+  margin: 1px;
+  padding: 1px;
+ 
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  height: 20vh;
+  background-color: $color-gray;
+  padding: 1.5rem;
+  position: relative;
+
+  &__nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4rem 5rem;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    width: 100%;
+    transition: 0.7s;
+  }
+
+  &__list {
+    list-style: none;
+    display: flex;
+  }
+
+  &__item {
+    &:not(:last-child) {
+      margin-right: 4.5rem;
+    }
+  }
+
+  &__link {
+    font-size: 1.4rem;
+    color: $color-blue;
+    font-weight: 360;
+    text-decoration: none;
+
+    &:hover {
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+  }
+}
